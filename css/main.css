@@ -1,0 +1,48 @@
+html {
+  font-family: Georgia, serif;
+}
+
+.text {
+  background-color: #495562;
+}
+
+h1, p {
+  color: #fff;
+}
+
+.btn, .btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn:hover {
+  background-color: #efefef;
+}
+
+@media only screen and (min-width: 60em) {
+
+  header {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+  .text {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+    bottom: 0;
+  }
+
+  .btn {
+    color: #fff;
+    border-color: #fff;
+  }
+
+  .btn-box {
+    text-align: right;
+  }
+
+
+}
